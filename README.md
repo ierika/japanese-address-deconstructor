@@ -18,6 +18,6 @@ Splits Japanese addresses into several components such as follows:
 House number, floor number, and building name will be challenging as people have
 their own preference on how to write these information.
 
-By scanning serveral hundreds or thousands of these addresses, we'll hopefully
+By scanning several hundreds or thousands of these addresses, we'll hopefully
 be able to make out the pattern. Might have to try Machine Learning techniques
 this time...or not.
