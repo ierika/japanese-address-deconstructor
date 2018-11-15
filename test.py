@@ -1,8 +1,8 @@
-from parser.utils import deconstruct_jp_address
+from parser.address_parser import AddressParser
 
 
 if __name__ == "__main__":
-    deconstructed = deconstruct_jp_address(
-        "121-0064東京都足立区保木間4-46-2ぶらぶらビル3階"
+    deconstructed = AddressParser(
+        "神奈川県川崎市麻生区上麻生1-3-14 川崎西合同庁舎"
     )
-    print(deconstructed)
+    print(deconstructed.parse())
